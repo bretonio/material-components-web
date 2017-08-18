@@ -86,8 +86,12 @@
   }
 }
 
-.mdc-button--raised {
+.mdc-button--raised,
+.mdc-button--unelevated {
   @include mdc-button-contained();
+}
+
+.mdc-button--raised {
   @include mdc-elevation(2);
   @include mdc-elevation-transition;
 
@@ -104,10 +108,6 @@
   &:disabled {
     @include mdc-elevation(0);
   }
-}
-
-.mdc-button--unelevated {
-  @include mdc-button-contained();
 }
 
 .mdc-button--compact {
