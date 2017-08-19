@@ -89,10 +89,10 @@ with and have no visual interaction effect.
 
 MDC Buttons have a default baseline color, but it is also possible to adopt the
 application's primary or secondary color by adding the `mdc-button--primary` or
-`mdc-button--secondary` modifier.
+`mdc-button--accent` modifier.
 
 ```html
-<button class="mdc-button mdc-button--secondary">
+<button class="mdc-button mdc-button--accent">
   Colored button
 </button>
 ```
@@ -137,4 +137,4 @@ The provided modifiers are:
 | `mdc-button--dense`   | Compresses the button text to make it slightly smaller. |
 | `mdc-button--compact` | Reduces the amount of horizontal padding in the button. |
 | `mdc-button--primary` | Colors the button with the primary color.               |
-| `mdc-button--secondary`  | Colors the button with the secondary color.             |
+| `mdc-button--accent`  | Colors the button with the secondary color.             |
