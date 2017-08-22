@@ -88,7 +88,7 @@
 
 .mdc-button--raised,
 .mdc-button--unelevated {
-  @include mdc-button-with-colored-background;
+  @include mdc-button-filled;
 }
 
 .mdc-button--raised {

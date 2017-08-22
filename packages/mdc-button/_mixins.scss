@@ -18,7 +18,7 @@
 @import "@material/theme/mixins";
 @import "@material/theme/variables";
 
-@mixin mdc-button-with-colored-background() {
+@mixin mdc-button-filled() {
   @include mdc-ripple-base;
   @include mdc-ripple-bg((pseudo: "::before", base-color: white, opacity: .32));
   @include mdc-ripple-fg((pseudo: "::after", base-color: white, opacity: .32));
